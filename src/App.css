@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(135deg, #1d2671 0%, #c33764 100%);
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -9,9 +9,10 @@ body {
 }
 
 .App {
-  max-width: 800px; /* Increased width */
+  min-width: 1000px; /*Increased width */
+  min-height: 60vh;
   margin: 2rem auto;
-  background: white;
+  background: linear-gradient(135deg, #c3c6f5 0%, #f0a8c0 100%);
   padding: 3rem; /* Increased padding */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
   border-radius: 12px; /* Slightly increased border radius */

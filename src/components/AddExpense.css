@@ -1,0 +1,30 @@
+/* AddExpense.css */
+
+/* Default styling */
+.expense-form {
+  padding: 1rem;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Styles for different categories */
+.expense-form.Food {
+  background-color: #ffe6e6; /* Light red */
+  border-color: #ff4d4d; /* Darker red */
+}
+
+.expense-form.Transport {
+  background-color: #e6f2ff; /* Light blue */
+  border-color: #3399ff; /* Darker blue */
+}
+
+.expense-form.Entertainment {
+  background-color: #e6ffe6; /* Light green */
+  border-color: #33cc33; /* Darker green */
+}
+
+.expense-form.Other {
+  background-color: #fff0e6; /* Light orange */
+  border-color: #ff9933; /* Darker orange */
+}

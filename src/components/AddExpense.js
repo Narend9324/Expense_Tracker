@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./AddExpense.css"; // Import the CSS file
 
 const AddExpense = ({ onAdd }) => {
   const [title, setTitle] = useState("");
@@ -25,7 +26,7 @@ const AddExpense = ({ onAdd }) => {
   };
 
   return (
-    <form onSubmit={submitHandler}>
+    <form onSubmit={submitHandler} className={`expense-form ${category}`}>
       <div>
         <input
           type="text"

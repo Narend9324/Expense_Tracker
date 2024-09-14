@@ -20,18 +20,24 @@ body {
 
 header {
   text-align: center;
+}
+h1 {
+  margin: 0;
   margin-bottom: 2rem;
 }
-
 form div {
   margin-bottom: 1rem;
+  min-height: auto;
 }
 
 input {
   width: 100%;
-  padding: 0.5rem;
   border: 1px solid #ddd;
+  padding: 5px;
   border-radius: 5px;
+  font-size: large;
+  color: black;
+  background: linear-gradient(135deg, #f4f4f8 0%, #f2e4e9 100%);
 }
 
 button {
@@ -49,9 +55,20 @@ ul {
   padding: 0;
 }
 
+.expense-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem; /* Space between grid items */
+  list-style-type: none;
+  padding: 0;
+}
+
 li {
   padding: 0.75rem;
-  margin: 0.5rem 0;
-  background-color: #eee;
+  color: #e00047;
+  font: bolder;
+  background: white;
+  border: 2px solid #fab09b;
   border-radius: 5px;
+  text-align: center; /* Center content */
 }

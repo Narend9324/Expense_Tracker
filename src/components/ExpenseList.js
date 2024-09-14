@@ -3,7 +3,7 @@ import ExpenseItem from "./ExpenseItem";
 
 const ExpenseList = ({ expenses }) => {
   return (
-    <ul>
+    <ul className="expense-grid">
       {expenses.map((expense) => (
         <ExpenseItem key={expense.id} expense={expense} />
       ))}
